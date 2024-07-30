@@ -28,7 +28,7 @@ const ADMIN_CORS =
 // CORS to avoid issues when consuming Medusa from a client
 const STORE_CORS='/http://.+/';
 
-const DATABASE_URL ="postgresql://medusa:t7Yaiveh60eqV2KalcT7GdpHll8xj4HB@dpg-cqjsnr8gph6c739dpo20-a.oregon-postgres.render.com/medusa_3c8d";
+const DATABASE_URL ="postgresql://medusa:t7Yaiveh60eqV2KalcT7GdpHll8xj4HB@dpg-cqjsnr8gph6c739dpo20-a.oregon-postgres.render.com/medusa_3c8d?sslmode=require";
 
 const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
 
